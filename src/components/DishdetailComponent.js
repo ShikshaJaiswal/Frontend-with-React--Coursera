@@ -3,13 +3,8 @@ import { Card, CardImg, CardBody, CardText, CardTitle } from 'reactstrap';
 
 
 
-    componentDidMount(){
-        console.log('Dishdetail Component componentDidMount invoked');
-    }
 
-    componentDidUpdate(){
-        console.log('Dishdetail Component componentDidUpdate invoked');
-    }
+  
 
     
 
@@ -59,7 +54,7 @@ import { Card, CardImg, CardBody, CardText, CardTitle } from 'reactstrap';
       
 
     const DishDetail=(props)=>{
-        console.log('Dishdetail Component render invoked');
+      
        
         if (props.dish!= null) 
             return (
